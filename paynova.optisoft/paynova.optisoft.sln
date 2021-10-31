@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paynova.optisoft", "paynova.optisoft\paynova.optisoft.csproj", "{CF88BF6A-94B5-4105-B713-841C875D2833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF88BF6A-94B5-4105-B713-841C875D2833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF88BF6A-94B5-4105-B713-841C875D2833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF88BF6A-94B5-4105-B713-841C875D2833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF88BF6A-94B5-4105-B713-841C875D2833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {398616DB-89D0-4F52-8EF0-39968F70E437}
+	EndGlobalSection
+EndGlobal

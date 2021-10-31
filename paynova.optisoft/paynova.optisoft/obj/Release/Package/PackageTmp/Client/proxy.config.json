@@ -1,0 +1,14 @@
+{
+    "/addresses/*": {
+      "target": "https://testapi.paynova.com",
+      "secure": false,
+      "loglevel": "debug",
+      "changeorigin":true
+    },
+    "/orders/*": {
+      "target": "https://testapi.paynova.com",
+      "secure": false,
+      "loglevel": "debug",
+      "changeorigin":true
+    }
+  }
