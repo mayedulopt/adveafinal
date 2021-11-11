@@ -232,11 +232,11 @@
     <Content Include="Client\.editorconfig" />
     <Content Include="Client\.gitignore" />
     <Content Include="Client\angular.json" />
-    <Content Include="Client\browserslist" />
     <Content Include="Client\package-lock.json" />
     <Content Include="Client\package.json" />
     <Content Include="Client\proxy.config.json" />
     <Content Include="Client\README.md" />
+    <Content Include="Client\.browserslistrc" />
     <None Include="Client\src\assets\js\jquery-3.4.1.intellisense.js" />
     <Content Include="Client\src\assets\js\jquery-3.4.1.js" />
     <Content Include="Client\src\assets\js\jquery-3.4.1.min.js" />
@@ -269,7 +269,6 @@
     <Content Include="Client\tsconfig.app.json" />
     <Content Include="Client\tsconfig.json" />
     <Content Include="Client\tsconfig.spec.json" />
-    <Content Include="Client\tslint.json" />
     <Content Include="proxy\proxy.ashx" />
     <Content Include="proxy\proxy.config" />
     <None Include="proxy\proxy.xsd">
@@ -287,29 +286,24 @@
     <Content Include="Scripts\Client\assets\images\ADVEA-VIT-LOGGA.png" />
     <Content Include="Scripts\Client\assets\js\bootstrap.js" />
     <Content Include="Scripts\Client\assets\js\bootstrap.min.js" />
-    <None Include="Scripts\Client\assets\js\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\Client\assets\js\jquery-3.4.1.js" />
     <Content Include="Scripts\Client\assets\js\jquery-3.4.1.min.js" />
     <Content Include="Scripts\Client\assets\js\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\Client\assets\js\jquery-3.4.1.slim.min.js" />
-    <None Include="Scripts\Client\assets\js\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\Client\assets\js\jquery.validate.js" />
     <Content Include="Scripts\Client\assets\js\jquery.validate.min.js" />
     <Content Include="Scripts\Client\assets\js\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\Client\assets\js\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\Client\assets\js\modernizr-2.8.3.js" />
-    <Content Include="Scripts\Client\glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg" />
+    <Content Include="Scripts\Client\favicon.ico" />
+    <Content Include="Scripts\Client\glyphicons-halflings-regular.85f0466cb4ab3a4d.svg" />
     <Content Include="Scripts\Client\index.html" />
-    <Content Include="Scripts\Client\main-es2015.2d453bb38bff156433be.js" />
-    <Content Include="Scripts\Client\main-es5.2d453bb38bff156433be.js" />
-    <Content Include="Scripts\Client\polyfills-es2015.f332a089ad1600448873.js" />
-    <Content Include="Scripts\Client\polyfills-es5.177e85a9724683782539.js" />
-    <Content Include="Scripts\Client\runtime-es2015.0dae8cbc97194c7caed4.js" />
-    <Content Include="Scripts\Client\runtime-es5.0dae8cbc97194c7caed4.js" />
-    <Content Include="Scripts\Client\scripts.1739b722b0b84a3b7e59.js" />
-    <Content Include="Scripts\Client\styles.2c7ceb7ec40a9c67f4e0.css" />
-    <Content Include="Scripts\Client\vendor-es2015.03c6e3fb381f4be7391c.js" />
-    <Content Include="Scripts\Client\vendor-es5.03c6e3fb381f4be7391c.js" />
+    <Content Include="Scripts\Client\main.5a167f22b2370ede.js" />
+    <Content Include="Scripts\Client\polyfills.d6cad60fb10c95f7.js" />
+    <Content Include="Scripts\Client\runtime.716450a23cdb791a.js" />
+    <Content Include="Scripts\Client\scripts.82e48eb0db20fd58.js" />
+    <Content Include="Scripts\Client\styles.9490419d461b78a6.css" />
+    <Content Include="Scripts\Client\vendor.1ec7bd546c646095.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -331,14 +325,14 @@
     <Content Include="Scripts\Client\assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Scripts\Client\assets\js\jquery-3.4.1.min.map" />
     <Content Include="Scripts\Client\assets\js\jquery-3.4.1.slim.min.map" />
-    <Content Include="Scripts\Client\glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf" />
-    <Content Include="Scripts\Client\glyphicons-halflings-regular.5be1347c682810f199c7.eot" />
-    <Content Include="Scripts\Client\glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff" />
-    <Content Include="Scripts\Client\glyphicons-halflings-regular.be810be3a3e14c682a25.woff2" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\Client\glyphicons-halflings-regular.009b407a9881be10.ttf" />
+    <Content Include="Scripts\Client\glyphicons-halflings-regular.4ba85deaf3670942.woff" />
+    <Content Include="Scripts\Client\glyphicons-halflings-regular.7a0f4b092e86cb52.eot" />
+    <Content Include="Scripts\Client\glyphicons-halflings-regular.b70781972ce7320b.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -384,6 +378,8 @@
           <DevelopmentServerPort>53668</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>https://localhost:44343/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>https://localhost:44343/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

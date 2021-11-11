@@ -237,7 +237,6 @@ D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\bin\System.Net.Http.Fo
 D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\bin\System.Web.Http.xml
 D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\bin\System.Web.Http.WebHost.xml
 D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\obj\Debug\paynova.optisoft.csproj.AssemblyReference.cache
 D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\obj\Debug\paynova.optisoft.csproj.CoreCompileInputs.cache
 D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\obj\Debug\paynova.optisoft.csproj.CopyComplete
 D:\Paynova\portal_advea\paynova.optisoft\paynova.optisoft\obj\Debug\paynova.optisoft.dll
