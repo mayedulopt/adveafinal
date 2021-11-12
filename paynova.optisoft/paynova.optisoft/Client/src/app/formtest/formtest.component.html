@@ -1,0 +1,23 @@
+<form [formGroup]="LoginForm">
+    <div class="user-box"><input type="text" class="form-control"  id="uname" name="uname" formControlName="UserName" value="">
+        <label>Användarnamn</label>
+        <p *ngIf="uname?.dirty">Touched</p>
+            <!-- <div *ngIf="(uname?.dirty || uname?.touched)" class="alert alert-danger">
+                UserName is required
+                <div *ngIf="!uname?.errors?.['required']">
+                 UserName is required
+                </div>
+            </div>  -->
+
+    </div>
+    <div class="user-box"><input type="text" id="pword" name="pword" formControlName="Password" class="form-control" value="">
+        <label>Lösenord</label>
+            <div *ngIf="(pword?.dirty || pword?.touched)" class="alert alert-danger">
+                Password is required
+                <!-- <div *ngIf="password?.errors?.['required']">
+                 Password is required
+                </div> -->
+            </div>
+    </div><a type="button" ><span></span><span></span><span></span><span></span>
+        Logga in </a>
+</form>
